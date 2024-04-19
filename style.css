@@ -90,7 +90,8 @@ body {
     background-color: var(--light-grey);
 }
 
-.card > button{
+.card > a {
+    display: block;
     width: 100%;
     padding: 13px;
     border: none;
@@ -103,10 +104,12 @@ body {
     letter-spacing: 2px;
     color: var(--whie);
     background-color: var(--orange);
+    text-align: center;
+    text-decoration: none;
     
 }
 
-.card > button:hover{
+.card > a:hover{
     color: var(--orange);
     background-color: var(--whie);
     cursor: pointer;
